@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="script" href="Summative Project.js">
+    </head>
+    <body>
+        <nav>
+            <a href="subpage.html">Weather History</a>
+        </nav>
+        <div class="weather-app">
+            <div class="search-container">
+                <input type="text" class="location-input" placeholder="Enter city or ZIP code">
+                <button class="search-button">Search</button>
+            </div>
+            <div class="weather-info">
+                <div class="location">
+                    <h2 class="city"></h2>
+                    <p class="country"></p>
+                </div>
+                <div class="current-weather">
+                    <div class="temperature">
+                        <span class="temp-value"></span>
+                        <span class="temp-unit">°C</span>
+                    </div>
+                    <div class="weather-details">
+                        <p class="weather-description"></p>
+                        <p class="weather-icon"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="error-message"></div> 
+        </div>
+        <script src="Summative Project.js" defer></script>
+    </body>
+</html>
